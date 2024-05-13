@@ -28,33 +28,36 @@ int main()
     cout << "enter a mark : ";
     cin >> mark;
     cout << endl;
-    if (mark > 100 || mark < 0)
+    if (mark >= 33)
     {
-        cout << "invalid number" << endl;
-    }
-    else if (mark >= 80)
-    {
-        cout << "A+" << endl;
-    }
-    else if (mark >= 70)
-    {
-        cout << "A" << endl;
-    }
-    else if (mark >= 60)
-    {
-        cout << "A-" << endl;
-    }
-    else if (mark >= 50)
-    {
-        cout << "B" << endl;
-    }
-    else if (mark >= 40)
-    {
-        cout << "C" << endl;
-    }
-    else if (mark >= 33)
-    {
-        cout << "D" << endl;
+        if (mark > 100 || mark < 0)
+        {
+            cout << "invalid number" << endl;
+        }
+        else if (mark >= 80)
+        {
+            cout << "A+" << endl;
+        }
+        else if (mark >= 70)
+        {
+            cout << "A" << endl;
+        }
+        else if (mark >= 60)
+        {
+            cout << "A-" << endl;
+        }
+        else if (mark >= 50)
+        {
+            cout << "B" << endl;
+        }
+        else if (mark >= 40)
+        {
+            cout << "C" << endl;
+        }
+        else if (mark >= 33)
+        {
+            cout << "D" << endl;
+        }
     }
     else
     {
