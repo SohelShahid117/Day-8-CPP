@@ -3,6 +3,7 @@ using namespace std;
 // C++ Bangla Tutorials 24 : Even-Odd | Large-small | Pass-Fail | Absolute value
 // C++ Bangla Tutorials 25 : Letter Grade program
 // C++ Bangla Tutorials 27 : Vowel / Consonant program
+// C++ Bangla Tutorials 28 : Vowel / Consonant program (part-2)
 
 int main()
 {
@@ -58,6 +59,32 @@ int main()
     else
     {
         cout << "F" << endl;
+    }
+
+    char ch;
+    cout << "enter a charecter" << endl;
+    cin >> ch;
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+    {
+        cout << ch << " is vowel";
+    }
+    else
+    {
+        cout << ch << " is consonant";
+    }
+    cout << endl;
+
+    char ch2;
+    cout << "enter a charecter again" << endl;
+    cin >> ch2;
+    ch2 = tolower(ch2);
+    if (ch2 == 'a' || ch2 == 'e' || ch2 == 'i' || ch2 == 'o' || ch2 == 'u')
+    {
+        cout << ch2 << " is vowel";
+    }
+    else
+    {
+        cout << ch2 << " is consonant";
     }
 
     return 0;
