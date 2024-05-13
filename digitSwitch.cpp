@@ -3,7 +3,7 @@ using namespace std;
 // Tutorials 33 : switch statement
 int main()
 {
-    int digit = 5;
+    int digit = 15;
     switch (digit)
     {
     case 0:

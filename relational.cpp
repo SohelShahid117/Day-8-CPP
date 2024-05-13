@@ -83,11 +83,24 @@ int main()
     ch2 = tolower(ch2);
     if (ch2 == 'a' || ch2 == 'e' || ch2 == 'i' || ch2 == 'o' || ch2 == 'u')
     {
-        cout << ch2 << " is vowel";
+        cout << ch2 << " is vowel" << endl;
     }
     else
     {
-        cout << ch2 << " is consonant";
+        cout << ch2 << " is consonant" << endl;
+    }
+    cout << "now use switch statement" << endl;
+    switch (ch2)
+    {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+        cout << ch2 << " is vowel" << endl;
+        break;
+    default:
+        cout << ch2 << " is consonant" << endl;
     }
 
     return 0;
